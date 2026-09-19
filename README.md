@@ -1,4 +1,4 @@
-# 🚗 API de Autos y Reservas
+# API de Autos y Reservas
 
 API REST desarrollada con **FastAPI** y **SQLModel** para la gestión de autos y reservas.
 
@@ -11,7 +11,7 @@ Además, la aplicación fue diseñada con una arquitectura modular y está prepa
 
 ---
 
-## 📌 Objetivo del proyecto
+## Objetivo del proyecto
 
 Desarrollar una API RESTful con FastAPI que permita:
 
@@ -26,7 +26,7 @@ Desarrollar una API RESTful con FastAPI que permita:
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 | Tecnología | Uso |
 |---|---|
@@ -43,7 +43,7 @@ Desarrollar una API RESTful con FastAPI que permita:
 
 ---
 
-## 📁 Arquitectura del proyecto
+## Arquitectura del proyecto
 
 ```text
 MI-PRIMER-EC2/
@@ -82,7 +82,7 @@ MI-PRIMER-EC2/
 
 ---
 
-## 🧱 Organización de la arquitectura
+## Organización de la arquitectura
 
 | Carpeta | Función |
 |---|---|
@@ -148,7 +148,7 @@ disponible
 
 ---
 
-# 📅 Entidad Reservas
+# Entidad Reservas
 
 Una reserva contiene:
 
@@ -193,7 +193,7 @@ auto_id
 
 ---
 
-# ▶️ Ejecución local
+# Ejecución local
 
 ## 1. Clonar el repositorio
 
@@ -302,7 +302,7 @@ sin necesidad de Postman.
 
 ---
 
-# 🗄️ Base de datos
+# Base de datos
 
 La aplicación utiliza **SQLite** como base de datos.
 
@@ -326,7 +326,7 @@ SQLModel.metadata.create_all(engine)
 
 ---
 
-# ☁️ Despliegue en AWS EC2
+# Despliegue en AWS EC2
 
 La API puede desplegarse en una instancia Ubuntu de AWS EC2.
 
@@ -405,7 +405,7 @@ La API utilizará el puerto:
 
 ---
 
-# ⚙️ Ejecución en segundo plano con PM2
+# Ejecución en segundo plano con PM2
 
 Instalar Node.js:
 
@@ -473,7 +473,7 @@ pm2 save
 
 ---
 
-# 🌐 Acceso público
+# Acceso público
 
 Después del despliegue en EC2:
 
@@ -489,7 +489,7 @@ http://IP-PUBLICA:8000/docs
 
 ---
 
-# ✅ Funcionalidades implementadas
+# Funcionalidades implementadas
 
 - CRUD completo de Autos
 - CRUD completo de Reservas
@@ -506,7 +506,7 @@ http://IP-PUBLICA:8000/docs
 
 ---
 
-# 👨‍💻 Autor
+# Autor
 
 **Nicolas Rios**
 
@@ -516,7 +516,7 @@ Proyecto desarrollado para la actividad:
 
 ---
 
-## 🚀 Estado del proyecto
+## Estado del proyecto
 
 ```text
 FastAPI            ✅
